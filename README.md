@@ -1,3 +1,5 @@
+based on code from a distributed systems course taught by https://github.com/apanda at NYU
+
 For testing you can use Kubernetes, we have provided a script in `launch-tool/launch.py`. Please note that `launch.py` 
 hardcodes a bunch of assumptions about how pods are created, about the fact that we are running under minikube, and 
 that the image itself is named `local/node-container`.
